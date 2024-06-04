@@ -160,27 +160,3 @@ class HomePageState extends State<HomePage> {
     }
   }
 }
-
-/// Below code contains Error for putting in Stackoverflow
-// void StackOverflow()
-// {
-//   return Card(
-//     child: ListTile(
-//       leading: Text(
-//         product.id.toString(),
-//         style: const TextStyle(
-//             fontWeight: FontWeight.bold, fontSize: 20.0),
-//       ),
-//       title: Text(
-//         product.title.toString(),
-//         style: const TextStyle(fontWeight: FontWeight.bold),
-//       ),
-//       subtitle: Text("\$${product.price.toString()}"),
-//       trailing: Image(
-//         width: 150.0,
-//         fit: BoxFit.cover,
-//         image: NetworkImage(product.thumbnail.toString()),
-//       ),
-//     ),
-//   ),
-// }

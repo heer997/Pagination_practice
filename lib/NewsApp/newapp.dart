@@ -1,9 +1,8 @@
 import "dart:developer";
-
 import "package:flutter/material.dart";
 import "package:flutter_bloc/flutter_bloc.dart";
-import "package:pagination_practice/Cubits/newscubit.dart";
-import "package:pagination_practice/Cubits/newsstate.dart";
+import "package:pagination_practice/NewsApp/Cubits/newscubit.dart";
+import "package:pagination_practice/NewsApp/Cubits/newsstate.dart";
 
 void main() {
   runApp(const MyApp());

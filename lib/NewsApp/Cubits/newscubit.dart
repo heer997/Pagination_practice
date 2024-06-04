@@ -1,10 +1,9 @@
 import "dart:convert";
-import "package:flutter/material.dart";
 import "package:flutter_bloc/flutter_bloc.dart";
-import "package:pagination_practice/Cubits/newsstate.dart";
 import "package:http/http.dart" as http;
-import "package:pagination_practice/Models/newsmodel.dart";
-import "package:pagination_practice/Utils/urls.dart";
+import "package:pagination_practice/NewsApp/Cubits/newsstate.dart";
+import "package:pagination_practice/NewsApp/Models/newsmodel.dart";
+import "package:pagination_practice/NewsApp/Utils/urls.dart";
 
 class NewsCubit extends Cubit<NewsState> {
   NewsCubit() : super(NewsInitialState());

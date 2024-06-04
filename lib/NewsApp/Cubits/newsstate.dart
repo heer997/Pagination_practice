@@ -1,4 +1,4 @@
-import 'package:pagination_practice/Models/newsmodel.dart';
+import 'package:pagination_practice/NewsApp/Models/newsmodel.dart';
 
 abstract class NewsState {}
 
